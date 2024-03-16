@@ -28,7 +28,7 @@ function Portfolio() {
             <p>Full Stack Developer</p>
          </header>
          <main>
-            <h2>Projects</h2>
+            <h2>Projects...</h2>
             <ul>
                {projects.map((project, index) => (
                   <li key={index}>
