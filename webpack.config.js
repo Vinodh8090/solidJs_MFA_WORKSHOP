@@ -42,7 +42,7 @@ module.exports = (_, argv) => ({
 
    plugins: [
       new ModuleFederationPlugin({
-         name: "shellv1",
+         name: "MFA",
          filename: "remoteEntry.js",
          remotes: {},
          exposes: {
