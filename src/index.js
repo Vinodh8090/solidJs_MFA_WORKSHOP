@@ -1,1 +1,1 @@
-import("./App");
+import("./wrapper.jsx");
