@@ -1,6 +1,3 @@
-import { render } from "solid-js/web";
-
-import "./index.css";
 import Portfolio from "./portfolio/LandingPage";
 
 const App = () => (
@@ -8,4 +5,5 @@ const App = () => (
       <Portfolio />
    </div>
 );
-render(App, document.getElementById("app"));
+
+export default App;
